@@ -1,50 +1,74 @@
-# ⚡ Overclock Foundation
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" />
-  <br /><br />
-  <a href="mailto:Alexey.Lyapin.inbox@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Alexey.Lyapin.inbox%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Email" />
-  </a>
+  <img src="https://github.com/Overclock-foundation.png" alt="Overclock Foundation Logo" width="150" height="150">
+  <h1>Overclock Foundation</h1>
 </div>
 
-<br />
+**High-performance algorithmic benchmarking for polyglot architectures.**
 
-> *Benchmarking the speed of code. Python vs C# vs Go.*
+We are a team of developers passionate about software engineering, performance, and clean architecture. Our mission is to explore algorithmic efficiency and demonstrate how different programming languages perform under load in real-world scenarios. Our current project combines Python, C#, and Go to create a unified algorithmic benchmarking platform.
 
-Welcome to **Overclock Foundation**! We are a team of developers passionate about software engineering, performance, and polyglot architecture. 
+---
 
-Our primary mission is to explore algorithmic efficiency and demonstrate how different programming languages perform under load in real-world scenarios.
+## ⭐ Our flagship project: Algorithm Benchmarking Platform
 
-## 🚀 What we are building
-We are currently developing an **Algorithm Benchmarking Platform** — a full-stack application designed to evaluate and visualize the execution speed and Big O complexity of algorithms across multiple programming languages.
+### ✨ What it does
 
-### 🛠️ Technology Stack
-Our project spans across the entire development lifecycle, utilizing a diverse set of technologies:
-*   **Backend (Python):** FastAPI, Flask, Pydantic (API Gateway & Python Runner)
-*   **Backend (C#):** ASP.NET Core (C# Runner)
-*   **Backend (Go):** Goroutines, Standard Library (Go Runner)
-*   **Frontend:** React, TailwindCSS (UI & Data Visualization)
+*   **Polyglot Execution:** Runs identical algorithms across three different runtimes: Python, C#, and Go.
+*   **Big O Visualization:** Measures execution time and memory usage to visually compare how algorithms scale.
+*   **Load Testing:** Utilizes **k6** to stress-test the API endpoints, comparing the throughput of Python (FastAPI/Flask) against C# (ASP.NET Core) and Go.
+*   **Unified Web Interface:** A React-based dashboard with beautiful charts for real-time data visualization.
+*   **Production-Grade Architecture:** Built with Docker, GitHub Actions CI/CD, and strictly typed code.
+
+---
+
+## 🛠️ Technology Stack
+
+*   **Backend (Python):** FastAPI, Flask, Pydantic
+*   **Backend (C#):** ASP.NET Core
+*   **Backend (Go):** Goroutines, Standard Library
+*   **Frontend:** React, TailwindCSS
 *   **Testing & Load Testing:** k6, pytest, xUnit, Go test
-*   **Infrastructure:** Docker, Docker Compose, GitHub Actions (CI/CD)
+*   **Infrastructure:** Docker, Docker Compose, GitHub Actions
 
-## 👥 The Team
-We are a tight-knit group of young engineers:
-*   **LyapinAlexey** — Founder & Backend Architect (Python, Go, Infrastructure)
-*   **Sarichev Vadim** — Backend Engineer (C# / .NET)
+---
 
-## 📈 Engineering Standards
-We believe in writing clean, production-ready code from day one. Our repositories follow strict engineering practices:
-*   **Git Flow:** All changes go through Pull Requests (no direct pushes to `main`).
-*   **CI/CD:** Automated testing, linting, and type-checking on every PR.
-*   **Infrastructure as Code:** Fully containerized environments for reproducibility.
-*   **Observability:** Proper logging, health checks, and performance metrics.
+## 💖 Support
 
-## 📫 Contact & Links
+If you find our benchmarking platform useful:
+
+*   ⭐ **Star** our repositories on GitHub
+*   🐛 **Report bugs** via Issues
+*   💬 **Share** it with fellow developers and engineers
+*   👨‍💻 **Contribute** code or documentation
+
+---
+
+## 🤝 Join the foundation
+
+We welcome contributors of all skill levels — whether you want to fix a bug, optimize an algorithm, add a new feature, or help with documentation.
+
+1. Read `CONTRIBUTING.md`
+2. Look for issues labeled `good first issue` or `help wanted`
+3. Open a discussion or issue and start contributing
+
+---
+
+## 📬 Contact
+
+*   **Founder & lead developer:** Alexey Lyapin
+*   **GitHub:** [LyapinAlexey](https://github.com/LyapinAlexey)
+*   **Telegram:** [@LyapinAlexey](https://t.me/LyapinAlexey)
 *   **Email:** [Alexey.Lyapin.inbox@gmail.com](mailto:Alexey.Lyapin.inbox@gmail.com)
-*   **Founder's Profile:** [Alexey Lyapin](https://github.com/LyapinAlexey)
+*   **Team:** LyapinAlexey (Backend/Infra), Sarichev Vadim (Backend C#)
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL 3.0)**.
+
+See [LICENSE](https://github.com/weatherender-foundation/weatherender/blob/main/LICENSE) for the full terms. Project names and branding are covered separately.
+
+---
+
+*Built with ☕ and a passion for clean code by the Overclock Foundation team.*
